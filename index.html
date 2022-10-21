@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Informações para cadastro</h1>
+    </header>
+
+    <div class="corpo">
+        <main>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" onkeyup="receberNome()">
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="text" name="idade" id="idade" onkeyup="receberIdade()">
+            </div>
+
+            <div>
+                <label for="salario">Salário:</label>
+                <input type="text" name="salario" id="salario" onkeyup="receberSalario()">
+            </div>
+
+            <a href="infos.html">Cadastrar</a>
+
+        </main>
+        <br>
+        <div class="retorno">
+            <p>Nome: <span id="valorNome"></span></p> 
+            <p>Idade: <span id="valorIdade"></span></p>
+            <p>Salário: <span id="valorSalario"></span></p>
+        </div>
+    </div>
+    
+    <br>
+    <footer> 
+        <p>&copy; Ana Luiza</p>
+    </footer>     
+    
+</body>
+</html>
