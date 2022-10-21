@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do funcionário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Salário</h1>
+    </header>
+
+    <main>
+        <div>
+            <label for="nome">Nome do(a) funcionário(a):</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="salarioFixo">Salário fixo: R$</label>
+            <input class="largura" type="text" name="salarioFixo" id="salarioFixo" value="500" readonly>
+        </div>
+
+        <div>
+            <label for="qtdSoftwares">Qtd. de softwares vendidos:</label>
+            <input class="largura" type="text" name="qtdSoftwares" id="qtdSoftwares">
+        </div>
+
+        <div>
+            <label for="salarioBruto">Salário bruto: R$</label>
+            <input class="largura" type="text" name="salarioBruto" id="salarioBruto" readonly>
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+
+    </main>
+    
+    <footer> 
+        <p>&copy; Ana Luiza</p>
+    </footer>
+    
+    
+</body>
+</html>
